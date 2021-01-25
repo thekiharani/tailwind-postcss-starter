@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/styles.css -o ./public/app.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.3",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
