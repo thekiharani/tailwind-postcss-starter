@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss ./src/styles.css -o ./public/app.css",
+    "watch": "postcss ./src/styles.css -o ./public/app.css -w --verbose",
     "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/app.css"
   },
   "keywords": [],
